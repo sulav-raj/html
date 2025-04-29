@@ -1,0 +1,309 @@
+ body{
+    margin: 0;
+    padding: 0;
+    
+ }
+ .banner{
+            background-image: url("Night\ pic.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 290px;
+        }
+.banner h3{
+            color: white;
+            position: absolute;
+            left: 43%;
+            font-size: x-large;
+            }
+
+            .container{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                flex-wrap: wrap;
+                
+            }
+            .header{
+                display: flex;
+                flex-direction: column;
+                padding:5px ;
+                background: white;
+                border: 1px solid #ddd;
+                justify-content: left;
+
+            }
+            .navigation{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .header a{
+                padding: 5px;
+                transition: 0.5s ease color;
+                border-radius: 5px;
+            }
+            .header a:hover{
+                color:  rgb(18, 68, 75);
+                
+                background-color: #ddd;
+                text-decoration:dashed;
+            }
+           nav{
+            width: 170px;
+           }
+            nav ul{
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+
+            }
+
+            nav ul a{
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                font-family: sans-serif;
+
+            }
+            
+           
+            i{
+                margin-right: 8px;
+            }
+            main{
+                display: flex;
+
+            }
+            aside{
+                flex: 4;
+                padding: 10px;
+                margin-left: 14px;
+                background: white;
+                border: 1px solid #ddd;
+
+            }
+            aside h2{
+                color: black;
+                text-align: center;
+            }
+            aside  a:hover{
+                transition: 0.5 ease color;
+                color: rgb(18, 68, 75);
+
+                text-decoration: underline;
+
+            }
+            p{
+                line-height: 30px;
+                font-family: sans-serif;
+            }
+            article{
+                flex: 32;
+                width: 925px;
+            }
+            article h1{
+                color: white;
+                text-decoration: underline;
+                text-align: center;
+                background-color: rgb(18, 68, 75);
+
+            }
+            aside{
+                flex: 6;
+            }
+            aside li{
+                line-height: 65px;
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+            nav li{
+                line-height: 90px;
+            }
+            aside ul{
+                list-style: square;
+            }
+
+            aside ul a{
+                text-decoration: none;
+                color:black;
+                
+
+            }
+            img{
+                margin-top: 10px;
+                width: 550px;
+            }
+            .search-form .Submit-btn{
+                background: rgb(114, 27, 27);
+                color: #fff;
+                border: 1px solid black;
+
+            }
+            .search-form .Submit-btn:hover{
+                background: #fff;
+                color: rgb(114, 27, 27);
+                cursor:pointer;
+                transition: 0.3s ease color;
+            }
+            .info{
+                display: flex;
+                flex-direction: row;
+                margin-top: 15px;
+            }
+            .outer{
+                
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 7px;
+            }
+            .outer1{
+                margin-left: 30px;
+                
+            }
+            .outer2{
+                margin-left: 50px;
+                
+            }
+            .outer:hover{
+                box-shadow: 6px 6px 6px  #000;
+                transition: 0.5s ease-in;
+                cursor: pointer;
+                
+            }
+            .image img{
+                width: 300px;
+                height: 200px;
+                border-radius: 7px;
+            }
+            .channel-info{
+                display: flex;
+                flex-direction: column;
+     
+             }
+             .channel-info .title{
+                font-family: Roboto;
+                color: rgb(24, 22, 22);
+    
+            }
+            .channel-title .channel{
+                color: #6d6a6a;
+                margin-top: 4px;
+                font-family: Roboto;
+            }
+            .description{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+            }
+
+            .lower-box{
+             display: flex;
+             flex-direction: row;
+             margin-top: 20px;
+            }
+            .item-box1 img{
+                border-radius: 10px;
+                margin-bottom: 10px;
+                object-fit: cover;
+                width: auto;
+                height: 300px;
+            }
+            .item-box1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .item{
+                background-color:rgb(18, 68, 75);
+                border-radius: 15px;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex: 1;
+            }
+            .item-box2 img{
+                border-radius: 10px;
+                margin-bottom: 10px;
+                
+                width: 300px;
+                height: 300px;
+            }
+
+            .item-box2{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+                flex: 2;
+                margin-left: 20px;
+
+            }
+            .item button{
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: rgb(114, 27, 27);
+                color: white;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                align-items: center;
+                width: fit-content;
+            }
+           
+            .footer {
+                background-color: white;
+                color: black;
+                padding: 20px;
+                display: flex;
+                justify-content: space-around;
+                gap: 20px;
+                height: 100 px;
+            }
+            .footer div {
+                flex: 1;
+                text-align: center;
+                border-right: 1px solid rgb(114, 27, 27);
+            }
+            .footer div:last-child {
+                border-right: none;
+            }
+            .footer .logo img {
+                width: 125px;
+                height: auto;
+                max-width: 100%;
+            }
+            .footer a {
+                color: black;
+                text-decoration: none;
+            }
+            .footer a:hover {
+                text-decoration: underline;
+                color:  rgb(114, 27, 27);
+            }
+            .last-footer{
+                text-align: center;
+                font-family: sans-serif;
+                margin-top: 20px;
+            }
+            .item-box1 img{
+                width: 400px;
+
+            }
+            .item-box2 img{
+                width: 480px;
+            }
+            span{
+                color: white; 
+                font-size: 150%;
+            }  
